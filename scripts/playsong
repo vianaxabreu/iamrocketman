@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from iamrocketman.params import song
+from iamrocketman import play
 import time
 
-list_song = song.split(sep='&')
-for verse in list_song:
-    print(verse)
-    time.sleep(2)
+# list_song = params.song.split(sep='&')
+play.play_song()
+# for verse in list_song:
+#     print(verse)
+#     time.sleep(2)
