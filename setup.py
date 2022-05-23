@@ -13,5 +13,5 @@ setup(name='iamrocketman',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/iamrocketman-run', 'playsong-run'],
+      scripts=['scripts/iamrocketman-run', 'scripts/playsong'],
       zip_safe=False)
